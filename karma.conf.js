@@ -40,8 +40,15 @@ module.exports = function(config) {
             "**/*.ts": ["karma-typescript"]
         },
 
-        reporters: ["dots", "karma-typescript"],
+        reporters: ['progress', 'kjhtml'],
 
-        browsers: ["ChromeHeadless"]
+        browsers: ["Chrome"],
+
+
+        colors: true,
+        logLevel: config.LOG_INFO,
+        autoWatch: true,
+        singleRun: false,
+        restartOnFileChange: true        
     });
 };
