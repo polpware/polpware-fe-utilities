@@ -49,7 +49,8 @@ export enum IntervalEnum {
     Day = 10,
     Week = 50,
     Month = 100,
-    Year = 500
+    Year = 500,
+    Custom = 1000
 }
 
 /**
@@ -74,4 +75,70 @@ export function hasDST(date = new Date()) {
  */
 export function convertToUtcString(date: Date) {
     return date.toISOString();
+}
+
+export enum MonthEnum {
+    January = 1,
+    February,
+    March,
+    April,
+    May,
+    June,
+    July,
+    August,
+    September,
+    October,
+    November,
+    December
+}
+
+export function getMonthsOfYear() {
+    const ret = [];
+    for (var enumMember in MonthEnum) {
+        var isValueProperty = parseInt(enumMember, 10) >= 0
+        if (isValueProperty) {
+            ret.push({
+                value: enumMember,
+                text: 'polpCronJob.' + MonthEnum[enumMember]
+            });
+        }
+    }
+    return ret;
+}
+
+
+export enum DayOfWeekEnum {
+    Sunday = 0,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+}
+
+
+export function getDaysOfWeek() {
+    const ret = [];
+    for (var enumMember in DayOfWeekEnum) {
+        var isValueProperty = parseInt(enumMember, 10) >= 0
+        if (isValueProperty) {
+            ret.push({
+                value: enumMember,
+                text: 'polpCronJob.' + DayOfWeekEnum[enumMember]
+            });
+        }
+    }
+    return ret;
+}
+
+export function getDaysOfMonth() {
+    const ret = [];
+    for (let i = 1; i < 32; i++) {
+        ret.push({
+            value: i,
+            text: i.toString()
+        });
+    }
+    return ret;
 }
