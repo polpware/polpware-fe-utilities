@@ -12,7 +12,7 @@ export function convertToUtc(dateInLocal: Date, timeInLocal: Date, timezone?: nu
     // Construct a new time 
     const workTime = new Date(dateInLocal.getFullYear(),
         dateInLocal.getMonth(),
-        dateInLocal.getDay(),
+        dateInLocal.getDate(),
         timeInLocal.getHours(),
         timeInLocal.getMinutes());
     const timeWrapper = moment(workTime);
