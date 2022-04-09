@@ -44,7 +44,7 @@
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "karma-typescript": "^5.1.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "ng-packagr": "^9.0.0",
     "phantomjs": "^2.1.7",
     "puppeteer": "^5.2.1",
