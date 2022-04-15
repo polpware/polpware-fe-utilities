@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/polpware-fe-utilities-host'),
+      dir: require('path').join(__dirname, '../../../coverage/polpware/fe-utilities'),
       subdir: '.',
       reporters: [
         { type: 'html' },
