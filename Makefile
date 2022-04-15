@@ -44,7 +44,7 @@ push:
 	cd $(DeployTarget) && git push
 	echo "Push done"
 
-deploy: build copy doc push
+deploy: build copy push
 
 
-.PHONY: build copy doc push deploy
+.PHONY: build copy doc push deploy prepare-ngx13 prepare-current
