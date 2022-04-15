@@ -2,6 +2,14 @@ BuildDist := ./dist
 BuildDoc := ./docs
 DeployTarget := ./deployment/polpware-fe-utilities
 
+prepare-current:
+	echo "Make sure that we are the master branch"
+	cd $(DeployTarget) && git checkout master && git pull
+
+prepare-ngx13:
+	echo "Make sure that we are the ngx13 branch"
+	cd $(DeployTarget) && git checkout ngx13 && git pull
+
 build:
 	echo "Build ..."
 	npm run build
