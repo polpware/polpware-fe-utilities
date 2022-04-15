@@ -12,24 +12,24 @@ function getVersion() {
 };
 
 function doc() {
-    return src(["src/**/*.ts"])
+    return src(["projects/polpware/fe-utilities/src/lib/**/*.ts"])
         .pipe(typedoc({
-            name: "Polpware typescript utilities (3.0.0)",            
+            name: "Polpware typescript utilities (13.0.0)",            
             out: "docs/",            
             
             module: "commonjs",
             target: "es5",
 
-            exclude: "src/**/t.spec.ts",            
+            exclude: "projects/polpware/fe-utilities/src/lib/**/*.spec.ts",            
 
             experimentalDecorators: true,
             excludePrivate: true,
             excludeExternals: true,
 
             "lib": [
-                "lib.dom.d.ts",
+                 "lib.dom.d.ts",
                 "lib.es2015.d.ts",                
-                "lib.es2016.d.ts"
+                "lib.es2016.d.ts"                
             ]
             
         }));
