@@ -1,4 +1,4 @@
-BuildDist := ./dist
+BuildDist := ./dist/polpware/fe-utilities
 BuildDoc := ./docs
 DeployTarget := ./deployment/polpware-fe-utilities
 
