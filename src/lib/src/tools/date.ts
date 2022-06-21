@@ -25,7 +25,7 @@ export function convertToUtc(dateInLocal: Date, timeInLocal: Date, timezone?: nu
     // Convert to UTC time
     let timeInUtc = new Date(Date.UTC(timeWrapper.year(),
         timeWrapper.month(),
-        timeWrapper.day(),
+        timeWrapper.date(),
         timeWrapper.hour(),
         timeWrapper.minute(),
         timeWrapper.second()));
