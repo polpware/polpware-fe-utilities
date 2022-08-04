@@ -1,4 +1,4 @@
-import * as moment from 'moment';
+import moment from 'moment';
 
 /**
  * Converts the given date and time into a UTC time. 
