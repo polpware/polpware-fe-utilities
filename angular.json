@@ -138,5 +138,7 @@
       }
     }
   },
-  "defaultProject": "polpware-fe-utilities-host"
+  "cli": {
+    "analytics": "8cb94d41-8c08-4f18-a0f3-5521fc9344a2"
+  }
 }
