@@ -4546,13 +4546,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"duplexer@npm:^0.1.1, duplexer@npm:~0.1.1":
-  version: 0.1.2
-  resolution: "duplexer@npm:0.1.2"
-  checksum: 62ba61a830c56801db28ff6305c7d289b6dc9f859054e8c982abd8ee0b0a14d2e9a8e7d086ffee12e868d43e2bbe8a964be55ddbd8c8957714c87373c7a4f9b0
-  languageName: node
-  linkType: hard
-
 "duplexify@npm:^3.6.0":
   version: 3.7.1
   resolution: "duplexify@npm:3.7.1"
@@ -5280,21 +5273,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"event-stream@npm:^4.0.1":
-  version: 4.0.1
-  resolution: "event-stream@npm:4.0.1"
-  dependencies:
-    duplexer: ^0.1.1
-    from: ^0.1.7
-    map-stream: 0.0.7
-    pause-stream: ^0.0.11
-    split: ^1.0.1
-    stream-combiner: ^0.2.2
-    through: ^2.3.8
-  checksum: 515cdff30c8dd74d5869cf53133b8851deba012605d2a15a1bc77b777b9d237ebf06d99ec62be2c6fc8adb2c89bf392771e2809239b278e5e70ba2f88cd1955c
-  languageName: node
-  linkType: hard
-
 "eventemitter-asyncresource@npm:^1.0.0":
   version: 1.0.0
   resolution: "eventemitter-asyncresource@npm:1.0.0"
@@ -5458,7 +5436,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fancy-log@npm:^1.3.2, fancy-log@npm:^1.3.3":
+"fancy-log@npm:^1.3.2":
   version: 1.3.3
   resolution: "fancy-log@npm:1.3.3"
   dependencies:
@@ -5737,13 +5715,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"from@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "from@npm:0.1.7"
-  checksum: b85125b7890489656eb2e4f208f7654a93ec26e3aefaf3bbbcc0d496fc1941e4405834fcc9fe7333192aa2187905510ace70417bbf9ac6f6f4784a731d986939
-  languageName: node
-  linkType: hard
-
 "fs-extra@npm:^8.1.0":
   version: 8.1.0
   resolution: "fs-extra@npm:8.1.0"
@@ -6014,7 +5985,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^8.0.1, glob@npm:^8.0.3":
+"glob@npm:^8.0.1":
   version: 8.0.3
   resolution: "glob@npm:8.0.3"
   dependencies:
@@ -6140,21 +6111,6 @@ __metadata:
   bin:
     gulp: bin/gulp.js
   checksum: 42e3ca1374a82dea7f2aab775a5db2a67718d42e858438c497336a4db35def7b8c14933d7be3ec99178b78e5c49665058fde1fd0de067a8f8dd8caafcee4faa2
-  languageName: node
-  linkType: hard
-
-"gulp-typedoc@npm:^3.0.2":
-  version: 3.0.2
-  resolution: "gulp-typedoc@npm:3.0.2"
-  dependencies:
-    ansi-colors: ^4.1.1
-    event-stream: ^4.0.1
-    fancy-log: ^1.3.3
-    plugin-error: ^1.0.1
-    semver: ^7.3.5
-  peerDependencies:
-    typedoc: ">=0.20.34"
-  checksum: 2812cf6b52451010879b755c2fed825cc966585aab09237ee14e7a08ee98f0fe1be63b69b65dff4ed3b79c59f04a7a60b134173f000658d06cf36b648c5b4054
   languageName: node
   linkType: hard
 
@@ -7749,13 +7705,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lunr@npm:^2.3.9":
-  version: 2.3.9
-  resolution: "lunr@npm:2.3.9"
-  checksum: 176719e24fcce7d3cf1baccce9dd5633cd8bdc1f41ebe6a180112e5ee99d80373fe2454f5d4624d437e5a8319698ca6837b9950566e15d2cae5f2a543a3db4b8
-  languageName: node
-  linkType: hard
-
 "magic-string@npm:0.25.7":
   version: 0.25.7
   resolution: "magic-string@npm:0.25.7"
@@ -7864,28 +7813,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"map-stream@npm:0.0.7":
-  version: 0.0.7
-  resolution: "map-stream@npm:0.0.7"
-  checksum: 74596bc701abb3e328e0783d70fcfdc5204798d945662a1824b57b7f10f3c36835edee5881bdd68618f96c992594bcbe09233f12b04d3a6a55a76e1a5793b76e
-  languageName: node
-  linkType: hard
-
 "map-visit@npm:^1.0.0":
   version: 1.0.0
   resolution: "map-visit@npm:1.0.0"
   dependencies:
     object-visit: ^1.0.0
   checksum: c27045a5021c344fc19b9132eb30313e441863b2951029f8f8b66f79d3d8c1e7e5091578075a996f74e417479506fe9ede28c44ca7bc351a61c9d8073daec36a
-  languageName: node
-  linkType: hard
-
-"marked@npm:^4.0.16":
-  version: 4.0.18
-  resolution: "marked@npm:4.0.18"
-  bin:
-    marked: bin/marked.js
-  checksum: a13e886d5059a8500a6fd552feecc16e18fc3636aa491fce372384b1fdea67e323d67ac49f7618f6977e66ca96e39f27400eb5c1273d5ee9c2301e8c33e90dce
   languageName: node
   linkType: hard
 
@@ -8080,7 +8013,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^5.0.1, minimatch@npm:^5.1.0":
+"minimatch@npm:^5.0.1":
   version: 5.1.0
   resolution: "minimatch@npm:5.1.0"
   dependencies:
@@ -9146,15 +9079,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pause-stream@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "pause-stream@npm:0.0.11"
-  dependencies:
-    through: ~2.3
-  checksum: 3c4a14052a638b92e0c96eb00c0d7977df7f79ea28395250c525d197f1fc02d34ce1165d5362e2e6ebbb251524b94a76f3f0d4abc39ab8b016d97449fe15583c
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
@@ -9264,7 +9188,6 @@ __metadata:
     "@types/node": ^12.11.1
     gulp: ^4.0.2
     gulp-bump: ^3.2.0
-    gulp-typedoc: ^3.0.2
     jasmine-core: ~4.0.0
     karma: ~6.3.0
     karma-chrome-launcher: ~3.1.0
@@ -9275,7 +9198,6 @@ __metadata:
     ng-packagr: ^13.0.0
     rxjs: ~7.5.0
     tslib: ^2.3.0
-    typedoc: ^0.22.15
     typescript: ~4.5.2
     zone.js: ~0.11.4
   languageName: unknown
@@ -10795,17 +10717,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shiki@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "shiki@npm:0.10.1"
-  dependencies:
-    jsonc-parser: ^3.0.0
-    vscode-oniguruma: ^1.6.1
-    vscode-textmate: 5.2.0
-  checksum: fb746f3cb3de7e545e3b10a6cb658d3938f840e4ccc9a3c90ceb7e69a8f89dbb432171faac1e9f02a03f103684dad88ee5e54b5c4964fa6b579fca6e8e26424d
-  languageName: node
-  linkType: hard
-
 "side-channel@npm:^1.0.4":
   version: 1.0.4
   resolution: "side-channel@npm:1.0.4"
@@ -11128,15 +11039,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"split@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "split@npm:1.0.1"
-  dependencies:
-    through: 2
-  checksum: 12f4554a5792c7e98bb3e22b53c63bfa5ef89aa704353e1db608a55b51f5b12afaad6e4a8ecf7843c15f273f43cdadd67b3705cc43d48a75c2cf4641d51f7e7a
-  languageName: node
-  linkType: hard
-
 "sprintf-js@npm:~1.0.2":
   version: 1.0.3
   resolution: "sprintf-js@npm:1.0.3"
@@ -11190,16 +11092,6 @@ __metadata:
   version: 1.5.0
   resolution: "statuses@npm:1.5.0"
   checksum: c469b9519de16a4bb19600205cffb39ee471a5f17b82589757ca7bd40a8d92ebb6ed9f98b5a540c5d302ccbc78f15dc03cc0280dd6e00df1335568a5d5758a5c
-  languageName: node
-  linkType: hard
-
-"stream-combiner@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "stream-combiner@npm:0.2.2"
-  dependencies:
-    duplexer: ~0.1.1
-    through: ~2.3.4
-  checksum: 5d3f4f6dd3604b3c5acf16150eabbbd131247378b54719c39cac5b5793150a92842306f662b58df65f2bd2e64bf8081f21449489591fed440c2b280021474e7d
   languageName: node
   linkType: hard
 
@@ -11519,7 +11411,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through@npm:2, through@npm:^2.3.6, through@npm:^2.3.8, through@npm:~2.3, through@npm:~2.3.4":
+"through@npm:^2.3.6":
   version: 2.3.8
   resolution: "through@npm:2.3.8"
   checksum: a38c3e059853c494af95d50c072b83f8b676a9ba2818dcc5b108ef252230735c54e0185437618596c790bbba8fcdaef5b290405981ffa09dce67b1f1bf190cbd
@@ -11710,23 +11602,6 @@ __metadata:
   version: 0.0.6
   resolution: "typedarray@npm:0.0.6"
   checksum: 33b39f3d0e8463985eeaeeacc3cb2e28bc3dfaf2a5ed219628c0b629d5d7b810b0eb2165f9f607c34871d5daa92ba1dc69f49051cf7d578b4cbd26c340b9d1b1
-  languageName: node
-  linkType: hard
-
-"typedoc@npm:^0.22.15":
-  version: 0.22.18
-  resolution: "typedoc@npm:0.22.18"
-  dependencies:
-    glob: ^8.0.3
-    lunr: ^2.3.9
-    marked: ^4.0.16
-    minimatch: ^5.1.0
-    shiki: ^0.10.1
-  peerDependencies:
-    typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x || 4.5.x || 4.6.x || 4.7.x
-  bin:
-    typedoc: bin/typedoc
-  checksum: b813d8129682f6ed5a4e96bacaf019e4da1d2744ca89fef850d6bb4c034616567ce67e6a7f5cfc5f00aac573f0b45d44b1427aafa262ab88dce6b460cb9e744c
   languageName: node
   linkType: hard
 
@@ -12051,20 +11926,6 @@ __metadata:
   version: 2.0.1
   resolution: "void-elements@npm:2.0.1"
   checksum: 700c07ba9cfa2dff88bb23974b3173118f9ad8107143db9e5d753552be15cf93380954d4e7f7d7bc80e7306c35c3a7fb83ab0ce4d4dcc18abf90ca8b31452126
-  languageName: node
-  linkType: hard
-
-"vscode-oniguruma@npm:^1.6.1":
-  version: 1.6.2
-  resolution: "vscode-oniguruma@npm:1.6.2"
-  checksum: 6b754acdafd5b68242ea5938bb00a32effc16c77f471d4f0f337d879d0e8e592622998e2441f42d9a7ff799c1593f31c11f26ca8d9bf9917e3ca881d3c1f3e19
-  languageName: node
-  linkType: hard
-
-"vscode-textmate@npm:5.2.0":
-  version: 5.2.0
-  resolution: "vscode-textmate@npm:5.2.0"
-  checksum: 5449b42d451080f6f3649b66948f4b5ee4643c4e88cfe3558a3b31c84c78060cfdd288c4958c1690eaa5cd65d09992fa6b7c3bef9d4aa72b3651054a04624d20
   languageName: node
   linkType: hard
 
