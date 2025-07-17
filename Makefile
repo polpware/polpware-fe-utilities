@@ -26,6 +26,12 @@ prepare-ngx17:
 	echo "Make sure that we are the ngx17 branch"
 	cd $(DeployTarget) && git checkout ngx17 && git pull
 
+prepare-branch:
+	@echo "--> Ensuring branch $(Branch) exists and is tracking the remote..."
+	cd $(DeployTarget) && \
+	(git checkout $(Branch) || (git checkout -b $(Branch) && git push -u origin $(Branch))) && \
+	git pull
+
 build:
 	echo "Build ..."
 	npm run build
@@ -63,4 +69,4 @@ push:
 deploy: build copy push
 
 
-.PHONY: build copy doc push deploy prepare-ngx13 prepare-current
+.PHONY: build copy doc push deploy prepare-ngx13 prepare-current prepare-branch
