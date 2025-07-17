@@ -1,3 +1,10 @@
+## 19.0.0 (July 17, 2025)
+  - Update deps for Angular 19
+  - Update to Angular 19
+  - Publish Version 18
+  - Update toolchain
+  - Bump to Version 18
+
 ## 18.0.0 (July 17, 2025)
   - Update toolchain
   - Update deps for Angular 18
