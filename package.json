@@ -35,7 +35,7 @@
     "@angular/platform-browser-dynamic": "^19.2.14",
     "@angular/router": "^19.2.14",
     "moment": "^2.29.2",
-    "rxjs": "~7.5.0",
+    "rxjs": "~7.8.2",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.1"
   },
@@ -48,11 +48,11 @@
     "gulp": "^5.0.1",
     "gulp-bump": "^3.2.0",
     "jasmine-core": "~5.8.0",
-    "karma": "~6.3.0",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.1.0",
+    "karma": "~6.4.4",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
+    "karma-jasmine-html-reporter": "~2.2.0",
     "ng-packagr": "^19.2.2",
     "typescript": "~5.8.3"
   }
